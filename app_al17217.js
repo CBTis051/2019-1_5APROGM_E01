@@ -8,7 +8,7 @@ http.createServer(function (req, res){
 
     var json = JSON.stringify(objeto);
 
-    res.end('json');
+    res.end(json);
 
 }).listen(8081);
 console.log('Server running on port 8081');
